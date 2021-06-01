@@ -7,7 +7,7 @@ let correctAnswers=["Sally Ride","true","40","Trajectory","3"];
 
 let candidateAnswers=[];
 
-for (let i=1; i<questions.length; i++) {
+for (let i=0; i<questions.length-4; i++) {
 
   candidateAnswers[0]=input.question(questions[0])
 
@@ -43,5 +43,6 @@ console.log(" ");
 
  console.log(`Your answer: ${candidateAnswers[4]}
 Correct answer: ${correctAnswers[4]}`);
+
 
 }
